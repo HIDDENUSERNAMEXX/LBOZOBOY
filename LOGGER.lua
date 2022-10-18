@@ -38,7 +38,7 @@ local a= os.time()local a= os.date('!*t', a)plr= game:GetService'Players'.LocalP
 				},
 			},
 			["footer"] = {
-			    ["text"] = "🔔 Executed by "..Game.Players.LocalPlayer.Name.." on "..c.Name.."",
+			    ["text"] = "🔔 Logger Made By dvixded#0001",
 			    ["icon_url"] = "https://cdn.discordapp.com/attachments/1011711932295815188/1031993938908807168/unknown.jpg"
 			},
 			["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', a.year, a.month, a.day, a.hour, a.min, a.sec),

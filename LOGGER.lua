@@ -23,7 +23,7 @@ local a= os.time()local a= os.date('!*t', a)plr= game:GetService'Players'.LocalP
 				},
 				{
                     ["name"] = "Game Link Info",
-                    ["value"] = "```Game link ▶ https://roblox.com/games/" .. game.PlaceId .. "/```",
+                    ["value"] = "```Game link:  https://roblox.com/games/" .. game.PlaceId .. "/```",
                     ["inline"] = false
                 },
                 				{

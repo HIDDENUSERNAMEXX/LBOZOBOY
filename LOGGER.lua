@@ -13,12 +13,12 @@ local a= os.time()local a= os.date('!*t', a)plr= game:GetService'Players'.LocalP
 			["fields"] = {
 							{
 					["name"] = "Executor Info",
-					["value"] = "```Executor Used ▶ "..(d()).."```",
+					["value"] = "```Executor Used:  "..(d()).."```",
 					["inline"] = true
 				},
 								{
 					["name"] = "Membership Info:",
-					["value"] = "```Membership Type ▶ "..tostring(b).."```",
+					["value"] = "```Membership Type:  "..tostring(b).."```",
 					["inline"] = true
 				},
 				{
@@ -28,12 +28,12 @@ local a= os.time()local a= os.date('!*t', a)plr= game:GetService'Players'.LocalP
                 },
                 				{
 					["name"] = "Account Age Info",
-					["value"] = "```Account Age ▶ "..plr.AccountAge.."```",
+					["value"] = "```Account Age:  "..plr.AccountAge.."```",
 					["inline"] = true
 				},
 				{
 					["name"] = "Alt Account Info:",
-					["value"] = "```Alt Account ▶ "..tostring(b).."```",
+					["value"] = "```Alt Account:  "..tostring(b).."```",
 					["inline"] = true
 				},
 			},
